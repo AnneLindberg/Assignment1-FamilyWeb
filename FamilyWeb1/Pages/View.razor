@@ -1,0 +1,95 @@
+﻿@page "/View"
+@using FamilyWeb1.Data
+@using Models
+@inject IAdultService AdultService
+
+<h3>AdultView</h3>
+
+<p>Filter by ID: <input type="number" @oninput="@((arg) => FilterById(arg))" style="width:50px"/>
+    </p>
+
+@if (adultsToShow == null) {
+    <p>
+        <em>Loading...</em>
+    </p>
+} else if (!adultsToShow.Any()) {
+    <p>
+        <em>No family items exist. Please add some.</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>HairColor</th>
+            <th>EyeColor</th>
+            <th>Age</th>
+            <th>Weight</th>
+            <th>Height</th>
+            <th>Sex</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var adults in adultsToShow)
+        {
+            <tr>
+                <td>@adults.Id</td>
+                <td>@adults.FirstName</td>
+                <td>@adults.LastName</td>
+                <td>@adults.HairColor</td>
+                <td>@adults.EyeColor</td>
+                <td>@adults.Age</td>
+                <td>@adults.Weight</td>
+                <td>@adults.Height</td>
+                <td>@adults.Sex</td>
+                <td>@adults.JobTitle</td>
+                
+            </tr>
+        }
+        </tbody>
+    </table>
+
+}
+
+
+@code {
+    private IList<Adult> adultsToShow;
+    private IList<Adult> allAdults;
+
+    private int? filterById;
+    
+    private void FilterById(ChangeEventArgs changeEventArgs)
+    {
+        filterById = null;
+        try
+        {
+            filterById = int.Parse(changeEventArgs.Value.ToString());
+        }
+        catch
+        {
+            adultsToShow = allAdults;
+        }
+
+        if (filterById != null)
+        {
+            ExcecuteFilterById();
+        }
+    }
+
+    private void ExcecuteFilterById()
+    {
+        adultsToShow = allAdults.Where(t => filterById != null && t.Id == filterById || filterById == null).ToList();
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        allAdults = AdultService.getAdults();
+        adultsToShow = allAdults;
+    }
+
+
+}

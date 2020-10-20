@@ -1,0 +1,91 @@
+﻿@page "/AddAdult"
+@using Models
+@using FileData
+@using FamilyWeb1.Data
+@inject IAdultService AdultService
+@inject NavigationManager NavigationManager
+@attribute [Authorize(Policy = "MustBeAdmin")]
+
+
+
+<h3>Add an adult</h3>
+
+<EditForm Model="@newAdultItem" OnValidSubmit="@SaveAdultToJson">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+    
+    <div class="form-group">
+        First Name:<br/>
+        <InputText @bind-Value="newAdultItem.FirstName" />
+    </div>
+    <div class="form-group">
+            Last Name:<br/>
+            <InputText @bind-Value="newAdultItem.LastName" />
+        </div>
+    <div class="form-group">
+        HairColor:<br/>
+        <InputSelect @bind-Value="newAdultItem.HairColor" >
+        @foreach (var color in hairColors)
+        {
+            <option>@color</option>
+        }
+        </InputSelect>
+        </div>
+    <div class="form-group">
+        EyeColor:<br/>
+        
+        <InputSelect @bind-Value="newAdultItem.EyeColor" >
+        @foreach (var color in eyeColor)
+                {
+                    <option>@color</option>
+                }
+                </InputSelect>
+    </div>
+     <div class="form-group">
+            Age:<br/>
+            <InputNumber @bind-Value="newAdultItem.Age" />
+        </div>
+    <div class="form-group">
+        Weight:<br/>
+        <InputNumber @bind-Value="newAdultItem.Weight" />
+    </div>
+    <div class="form-group">
+            Height:<br/>
+            <InputNumber @bind-Value="newAdultItem.Height" />
+        </div>
+    <div class="form-group">
+        Sex:<br/>
+        <InputSelect @bind-Value="newAdultItem.Sex">
+                   <option>Male</option>
+                   <option>Female</option>
+               </InputSelect>
+    </div>
+    
+    <div class="form-group">
+            Job: <br/>
+            <InputText @bind-Value="newAdultItem.JobTitle"/>
+        </div>
+            
+    <p class="actions">
+        <button class="btn btn-outline-dark" type="">Add member</button>
+    </p>
+</EditForm>
+
+
+
+@code {
+    private Adult newAdultItem = new Adult();
+    private string[] hairColors = {"Blond", "Red", "Brown", "Black", "White", "Grey", "Blue", "Green", "Leverpostej"};
+    private string[] eyeColor = {"Black", "Brown", "Grey", "Green", "Blue", "Amber", "Hazel"};
+    
+    private void SaveAdultToJson()
+    {
+        FileContext fileContext = new FileContext();
+        IList<Adult> adults = fileContext.Adults;
+        
+        adults.Add(newAdultItem);
+
+        fileContext.SaveChanges();
+        NavigationManager.NavigateTo("/View");
+    }
+}
