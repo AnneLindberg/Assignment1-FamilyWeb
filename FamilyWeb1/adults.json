@@ -526,5 +526,17 @@
     "Weight": 62,
     "Height": 164,
     "Sex": "Female"
+  },
+  {
+    "JobTitle": "Student",
+    "Id": 0,
+    "FirstName": "Anne",
+    "LastName": "Lindberg",
+    "HairColor": "Brown",
+    "EyeColor": "Grey",
+    "Age": 26,
+    "Weight": 65,
+    "Height": 165,
+    "Sex": "Female"
   }
 ]

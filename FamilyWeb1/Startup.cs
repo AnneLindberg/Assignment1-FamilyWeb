@@ -29,7 +29,7 @@ namespace FamilyWeb1
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddScoped<IAdultService, AdultService>();
+            services.AddScoped<IAdultService, CloudAdultService>();
             services.AddScoped<IUserService, InMemoryUserService>();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 

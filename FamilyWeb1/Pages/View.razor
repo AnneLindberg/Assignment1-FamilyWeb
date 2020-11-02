@@ -1,7 +1,8 @@
 ﻿@page "/View"
 @using FamilyWeb1.Data
 @using Models
-@inject IAdultService AdultService
+@inject IAdultService CloudService
+
 
 <h3>AdultView</h3>
 
@@ -37,15 +38,15 @@ else
         @foreach (var adults in adultsToShow)
         {
             <tr>
-                <td>@adults.Id</td>
-                <td>@adults.FirstName</td>
-                <td>@adults.LastName</td>
-                <td>@adults.HairColor</td>
-                <td>@adults.EyeColor</td>
-                <td>@adults.Age</td>
-                <td>@adults.Weight</td>
-                <td>@adults.Height</td>
-                <td>@adults.Sex</td>
+                <td>@adults.id</td>
+                <td>@adults.firstName</td>
+                <td>@adults.lastName</td>
+                <td>@adults.hairColor</td>
+                <td>@adults.eyeColor</td>
+                <td>@adults.age</td>
+                <td>@adults.weight</td>
+                <td>@adults.height</td>
+                <td>@adults.sex</td>
                 <td>@adults.JobTitle</td>
                 
             </tr>
@@ -82,12 +83,12 @@ else
 
     private void ExcecuteFilterById()
     {
-        adultsToShow = allAdults.Where(t => filterById != null && t.Id == filterById || filterById == null).ToList();
+        adultsToShow = allAdults.Where(t => filterById != null && t.id == filterById || filterById == null).ToList();
     }
     
     protected override async Task OnInitializedAsync()
     {
-        allAdults = AdultService.getAdults();
+        allAdults = await CloudService.GetAdultsAsync();
         adultsToShow = allAdults;
     }
 

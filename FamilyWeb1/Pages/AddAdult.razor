@@ -1,8 +1,8 @@
 ﻿@page "/AddAdult"
 @using Models
-@using FileData
+
 @using FamilyWeb1.Data
-@inject IAdultService AdultService
+@inject IAdultService CloudAdultService
 @inject NavigationManager NavigationManager
 @attribute [Authorize(Policy = "MustBeAdmin")]
 
@@ -16,15 +16,15 @@
     
     <div class="form-group">
         First Name:<br/>
-        <InputText @bind-Value="newAdultItem.FirstName" />
+        <InputText @bind-Value="newAdultItem.firstName" />
     </div>
     <div class="form-group">
             Last Name:<br/>
-            <InputText @bind-Value="newAdultItem.LastName" />
+            <InputText @bind-Value="newAdultItem.lastName" />
         </div>
     <div class="form-group">
         HairColor:<br/>
-        <InputSelect @bind-Value="newAdultItem.HairColor" >
+        <InputSelect @bind-Value="newAdultItem.hairColor" >
         @foreach (var color in hairColors)
         {
             <option>@color</option>
@@ -34,7 +34,7 @@
     <div class="form-group">
         EyeColor:<br/>
         
-        <InputSelect @bind-Value="newAdultItem.EyeColor" >
+        <InputSelect @bind-Value="newAdultItem.eyeColor" >
         @foreach (var color in eyeColor)
                 {
                     <option>@color</option>
@@ -43,19 +43,19 @@
     </div>
      <div class="form-group">
             Age:<br/>
-            <InputNumber @bind-Value="newAdultItem.Age" />
+            <InputNumber @bind-Value="newAdultItem.age" />
         </div>
     <div class="form-group">
         Weight:<br/>
-        <InputNumber @bind-Value="newAdultItem.Weight" />
+        <InputNumber @bind-Value="newAdultItem.weight" />
     </div>
     <div class="form-group">
             Height:<br/>
-            <InputNumber @bind-Value="newAdultItem.Height" />
+            <InputNumber @bind-Value="newAdultItem.height" />
         </div>
     <div class="form-group">
         Sex:<br/>
-        <InputSelect @bind-Value="newAdultItem.Sex">
+        <InputSelect @bind-Value="newAdultItem.sex">
                    <option>Male</option>
                    <option>Female</option>
                </InputSelect>
@@ -80,12 +80,7 @@
     
     private void SaveAdultToJson()
     {
-        FileContext fileContext = new FileContext();
-        IList<Adult> adults = fileContext.Adults;
-        
-        adults.Add(newAdultItem);
-
-        fileContext.SaveChanges();
+        CloudAdultService.AddAdultAsync(newAdultItem);
         NavigationManager.NavigateTo("/View");
     }
 }

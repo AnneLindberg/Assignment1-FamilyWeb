@@ -502,5 +502,41 @@
     "Weight": 100.9,
     "Height": 177,
     "Sex": "F"
+  },
+  {
+    "JobTitle": "Student",
+    "Id": 42,
+    "FirstName": "Anne",
+    "LastName": "Lindberg",
+    "HairColor": "Leverpostej",
+    "EyeColor": "Blue",
+    "Age": 26,
+    "Weight": 62,
+    "Height": 164,
+    "Sex": "Female"
+  },
+  {
+    "JobTitle": "Student",
+    "Id": 0,
+    "FirstName": "Anne",
+    "LastName": "Lindberg",
+    "HairColor": "Leverpostej",
+    "EyeColor": "Blue",
+    "Age": 26,
+    "Weight": 62,
+    "Height": 164,
+    "Sex": "Female"
+  },
+  {
+    "JobTitle": "Student",
+    "Id": 0,
+    "FirstName": "Anne",
+    "LastName": "Lindberg",
+    "HairColor": "Brown",
+    "EyeColor": "Grey",
+    "Age": 26,
+    "Weight": 65,
+    "Height": 165,
+    "Sex": "Female"
   }
 ]
