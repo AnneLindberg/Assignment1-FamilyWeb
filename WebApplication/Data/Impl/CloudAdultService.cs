@@ -20,7 +20,7 @@ namespace FamilyWeb1.Data.Impl
             return result;
         }
 
-        public async Task AddAdultAsync(Adult adult)
+        public async Task<Adult> AddAdultAsync(Adult adult)
         {
             throw new System.NotImplementedException();
         }

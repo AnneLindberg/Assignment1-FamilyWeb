@@ -4,8 +4,8 @@ using FamilyWeb1.Data;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net.Http;
 using System.Text.Json;
+using FileData;
 using Models;
 
 namespace AdultService
@@ -14,6 +14,7 @@ namespace AdultService
     {
         private string adultFile = "adults.json";
         private IList<Adult> _adults;
+        private FileContext _fileContext = new FileContext();
 
         public AdultService()
         {
@@ -40,12 +41,13 @@ namespace AdultService
             return tmp;
         }
 
-        public async Task AddAdultAsync(Adult adult)
+        public async Task<Adult> AddAdultAsync(Adult adult)
         {
             int max = _adults.Max(adult => adult.id);
             adult.id = (++max);
             _adults.Add(adult);
             WriteAdultsToFile();
+            return adult;
         }
 
         public Task RemoveAdultAsync(Adult adult)
@@ -58,6 +60,19 @@ namespace AdultService
             throw new System.NotImplementedException();
         }
 
+        public int addId()
+        {
+            int j = 0;
+            for (int i = 0; i < _fileContext.Adults.Count; i++)
+            {
+                if (_fileContext.Adults[i].id != i)
+                {
+                    return i;
+                }
+            }
+
+            return _fileContext.Adults.Count;
+        }
         private void Seed()
         {
             Adult[] ts =
