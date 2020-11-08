@@ -4,6 +4,7 @@ using FamilyWeb1.Data;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text.Json;
 using FileData;
 using Models;
@@ -15,9 +16,11 @@ namespace AdultService
         private string adultFile = "adults.json";
         private IList<Adult> _adults;
         private FileContext _fileContext = new FileContext();
+        private HttpClient client;
 
         public AdultService()
         {
+            client = new HttpClient();
             if (!File.Exists(adultFile))
             {
                 Seed();
@@ -39,6 +42,14 @@ namespace AdultService
         {
             List<Adult> tmp = new List<Adult>(_adults);
             return tmp;
+        }
+
+        public async Task<IList<Adult>> GetAllAdults(string query)
+        {
+            string httpsJsonplaceholderTypicodeComTodos = "https://localhost:5005/Adults" + query;
+            string message = await client.GetStringAsync(httpsJsonplaceholderTypicodeComTodos);
+            List<Adult> result = JsonSerializer.Deserialize<List<Adult>>(message);
+            return result;
         }
 
         public async Task<Adult> AddAdultAsync(Adult adult)

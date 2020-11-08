@@ -8,7 +8,6 @@ namespace FamilyWeb1.Data
     {
         Task<IList<Adult>> GetAdultsAsync();
         Task AddAdultAsync(Adult adult);
-        Task RemoveAdultAsync(Adult adult);
-        Task UpdateAsync(Adult adult);
+      
     }
 }

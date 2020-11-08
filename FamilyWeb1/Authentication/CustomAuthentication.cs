@@ -70,7 +70,6 @@ namespace LoginExample.Authentication
             List<Claim> claims = new List<Claim>();
             claims.Add(new Claim(ClaimTypes.Name, user.UserName));
             claims.Add(new Claim("Role", user.Role));
-            claims.Add(new Claim("BirthYear", user.BirthYear.ToString()));
             claims.Add(new Claim("Level", user.SecurityLevel.ToString()));
 
             ClaimsIdentity identity = new ClaimsIdentity(claims, "apiauth_type");

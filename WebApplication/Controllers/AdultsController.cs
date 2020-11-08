@@ -22,7 +22,8 @@ namespace WebApplication.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IList<Adult>>> GetAdults()
+        public async Task<ActionResult<IList<Adult>>> GetAdults([FromQuery] int? id,  [FromQuery] string firstName,
+            [FromQuery] string lastName)
         {
             try
             {

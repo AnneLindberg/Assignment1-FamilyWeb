@@ -14,14 +14,12 @@ namespace LoginExample.Data.Impl
                 new User {
                    Password = "12345",
                     Role = "Admin",
-                    BirthYear = 1994,
                     SecurityLevel = 5,
                     UserName = "Anne"
                 },
                 new User {
                     Password = "12345",
                     Role = "User",
-                    BirthYear = 1990,
                     SecurityLevel = 3,
                     UserName = "Sonny"
                 }

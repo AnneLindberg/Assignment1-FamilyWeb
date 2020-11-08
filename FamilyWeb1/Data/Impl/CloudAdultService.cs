@@ -40,14 +40,5 @@ namespace FamilyWeb1.Data.Impl
             //return responseMessage;
         }
 
-        public async Task RemoveAdultAsync(Adult adult)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public async Task UpdateAsync(Adult adult)
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }
