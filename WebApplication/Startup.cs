@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using WebApplication.DataAccess;
 
 namespace WebApplication
 {
@@ -21,6 +22,7 @@ namespace WebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<AdultDBContext>();
             services.AddScoped<IAdultService, AdultService.AdultService>();
         }
 

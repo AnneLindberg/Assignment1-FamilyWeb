@@ -2,13 +2,14 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using System.Text.Json.Serialization;
 
 namespace Models {
 public class Person {
     
+    [Key]
     public int id { get; set; }
     [NotNull]
+    [Required]
     public string firstName { get; set; }
     [NotNull]
     public string lastName { get; set; }
