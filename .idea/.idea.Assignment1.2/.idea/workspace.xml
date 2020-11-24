@@ -24,68 +24,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904b0601-18e8-4ebb-b98c-75272195cf5e" name="Default Changelist" comment="it works">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Adults.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Data/Impl/SqliteAdultService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/20201109094848_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/20201109094848_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/AdultDBContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Humanizer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/System.Text.Encodings.Web.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/System.Text.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.EntityFrameworkCore.targets" afterDir="false" />
+    <list default="true" id="904b0601-18e8-4ebb-b98c-75272195cf5e" name="Default Changelist" comment="started db">
+      <change afterPath="$PROJECT_DIR$/WebApplication/Adults.db-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Adults.db-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Data/IUserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1.2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1.2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/Pages/AddAdult.razor" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/Pages/AddAdult.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/Razor/Pages/AddAdult.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/Razor/Pages/AddAdult.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/FamilyWeb1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/FamilyWeb1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/FamilyWeb1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/FamilyWeb1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddAdult.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddAdult.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Models/Adult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Models/Adult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Models/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Models/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Persistence/AdultContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Adults.db" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Adults.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/adults.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/adults.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -96,7 +64,6 @@
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +76,7 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/760DCDFB-2F2B-4C8D-9D3B-A922FA70B507/C/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D47AB0ED-8CDE-46B2-B0F8-210C0883348A/3/AuthenticationStateProvider.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -123,7 +91,6 @@
         <option value="$PROJECT_DIR$/FamilyWeb1/Pages/Index.razor" />
         <option value="$PROJECT_DIR$/FamilyWeb1/adults.json" />
         <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/AdultService.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Pages/AddAdult.razor" />
         <option value="$PROJECT_DIR$/FamilyWeb1/Models/Person.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Persistence/AdultDBContext.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/Impl/AdultService.cs" />
@@ -147,11 +114,15 @@
         <option value="$PROJECT_DIR$/FamilyWeb1/Authentication/CustomAuthentication.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/Adult.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/Person.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Persistence/AdultContext.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Program.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/Impl/SqliteAdultService.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/adults.json" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Pages/AddAdult.razor" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/IUserService.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Program.cs" />
       </list>
     </option>
   </component>
@@ -165,8 +136,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -178,7 +151,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication">
+  <component name="RunManager" selected=".NET Launch Settings Profile.FamilyWeb1">
     <configuration name="FamilyWeb1" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FamilyWeb1/FamilyWeb1.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -296,7 +269,18 @@
       <workItem from="1604570391175" duration="461000" />
       <workItem from="1604681443047" duration="7547000" />
       <workItem from="1604850514530" duration="4248000" />
-      <workItem from="1604914462573" duration="3468000" />
+      <workItem from="1604914462573" duration="4420000" />
+      <workItem from="1605007213006" duration="771000" />
+      <workItem from="1605009018189" duration="1230000" />
+      <workItem from="1605018880341" duration="1767000" />
+      <workItem from="1605098467966" duration="3228000" />
+      <workItem from="1605600231156" duration="1276000" />
+      <workItem from="1605619107713" duration="719000" />
+      <workItem from="1605693727079" duration="154000" />
+      <workItem from="1605696380376" duration="1620000" />
+      <workItem from="1605698066661" duration="3594000" />
+      <workItem from="1605729246317" duration="1130000" />
+      <workItem from="1606149584240" duration="7945000" />
     </task>
     <task id="LOCAL-00001" summary="Rest-API">
       <created>1604302200988</created>
@@ -319,7 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604857055436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="started db">
+      <created>1604945395582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604945395583</updated>
+    </task>
+    <task id="LOCAL-00005" summary="started db">
+      <created>1604945415391</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604945415391</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +343,8 @@
     <MESSAGE value="Rest-API" />
     <MESSAGE value="fixed the addAdultAsync&#10;Still needs to update when entering the page" />
     <MESSAGE value="it works" />
-    <option name="LAST_COMMIT_MESSAGE" value="it works" />
+    <MESSAGE value="started db" />
+    <option name="LAST_COMMIT_MESSAGE" value="started db" />
   </component>
   <component name="WindowStateProjectService">
     <state x="49" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604915821414">
@@ -364,52 +363,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603203185443" />
-    <state width="754" height="163" key="GridCell.Tab.0.bottom" timestamp="1604914794687">
+    <state width="1557" height="181" key="GridCell.Tab.0.bottom" timestamp="1606235125692">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="756" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1024.728@0.0.1600.860" timestamp="1604405080330" />
-    <state width="754" height="163" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604914794687" />
-    <state width="1557" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604832967522" />
-    <state width="754" height="163" key="GridCell.Tab.0.center" timestamp="1604914794686">
+    <state width="1557" height="181" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606235125692" />
+    <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605087839248" />
+    <state width="1557" height="181" key="GridCell.Tab.0.center" timestamp="1606235125692">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="756" height="206" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1024.728@0.0.1600.860" timestamp="1604405080330" />
-    <state width="754" height="163" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604914794686" />
-    <state width="1557" height="209" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604832967521" />
-    <state width="754" height="163" key="GridCell.Tab.0.left" timestamp="1604914794686">
+    <state width="1557" height="181" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606235125692" />
+    <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605087839247" />
+    <state width="1557" height="181" key="GridCell.Tab.0.left" timestamp="1606235125692">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="756" height="206" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1024.728@0.0.1600.860" timestamp="1604405080329" />
-    <state width="754" height="163" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604914794686" />
-    <state width="1557" height="209" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604832967521" />
-    <state width="754" height="163" key="GridCell.Tab.0.right" timestamp="1604914794686">
+    <state width="1557" height="181" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606235125692" />
+    <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605087839247" />
+    <state width="1557" height="181" key="GridCell.Tab.0.right" timestamp="1606235125692">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="756" height="206" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1024.728@0.0.1600.860" timestamp="1604405080330" />
-    <state width="754" height="163" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604914794686" />
-    <state width="1557" height="209" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604832967521" />
-    <state x="756" y="81" key="Rider.ProjectTemplateDialog.Size" timestamp="1603703806743">
+    <state width="1557" height="181" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606235125692" />
+    <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605087839248" />
+    <state x="756" y="81" key="Rider.ProjectTemplateDialog.Size" timestamp="1606236000626">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="756" y="81" key="Rider.ProjectTemplateDialog.Size/0.0.1600.860@0.0.1600.860" timestamp="1603703806743" />
-    <state x="579" y="130" key="RiderGenerateDialog" timestamp="1604917219529">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="756" y="81" key="Rider.ProjectTemplateDialog.Size/0.0.1600.860@0.0.1600.860" timestamp="1606236000626" />
+    <state x="1241" y="157" key="RiderGenerateDialog" timestamp="1605600455641">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="579" y="130" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1604917219529" />
-    <state x="1241" y="157" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603204520311" />
-    <state x="878" y="83" width="645" height="701" key="VCS.FileHistoryDialog" timestamp="1604694212668">
+    <state x="1241" y="157" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605600455641" />
+    <state x="878" y="83" width="645" height="701" key="VCS.FileHistoryDialog" timestamp="1606232737932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="878" y="83" width="645" height="701" key="VCS.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1604694212668" />
+    <state x="878" y="83" width="645" height="701" key="VCS.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1606232737932" />
     <state x="1053" y="100" width="774" height="847" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604424349276" />
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1604857061501">
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1605729780652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604695408748" />
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604857061501" />
-    <state x="1257" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603204353091">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605729780652" />
+    <state x="1048" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605616976653">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="1048" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1605616976653" />
     <state x="1257" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603204353091" />
     <state x="898" y="356" width="727" height="593" key="dock-window-1" timestamp="1604917123558">
       <screen x="0" y="0" width="1600" height="860" />

@@ -1,5 +1,7 @@
+C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\adults.json
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\families.json
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\FamilyWeb1.exe
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\FamilyWeb1.deps.json
@@ -16,7 +18,10 @@ C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netc
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\FamilyWeb1.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\FamilyWeb1.RazorComponent.input.cache
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddAdult.razor.g.cs
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\View.razor.g.cs
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
@@ -26,7 +31,10 @@ C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netc
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\FamilyWeb1.TagHelpers.output.cache
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\FamilyWeb1.RazorCoreGenerate.cache
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Pages\AddAdult.razor.g.cs
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Pages\View.razor.g.cs
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
@@ -44,11 +52,3 @@ C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netc
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\FamilyWeb1.pdb
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\FamilyWeb1.genruntimeconfig.cache
 C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\FamilyWeb1.csproj.CopyComplete
-C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\View.razor.g.cs
-C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Pages\View.razor.g.cs
-C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\adults.json
-C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AddAdult.razor.g.cs
-C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Pages\AddAdult.razor.g.cs
-C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\bin\Debug\netcoreapp3.1\families.json
-C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
-C:\Users\aans\RiderProjects\Own projects\Assignment1.2\FamilyWeb1\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs

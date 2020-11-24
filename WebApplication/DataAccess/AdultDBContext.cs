@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using Models;
 
 namespace WebApplication.DataAccess
@@ -11,5 +14,7 @@ namespace WebApplication.DataAccess
         {
             optionsBuilder.UseSqlite("Data source = Adults.db");
         }
+
+        
     }
 }

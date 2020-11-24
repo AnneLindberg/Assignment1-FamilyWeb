@@ -1146,7 +1146,7 @@
   },
   "packageFolders": {
     "C:\\Users\\aans\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1158,7 +1158,7 @@
       "outputPath": "C:\\Users\\aans\\RiderProjects\\Own projects\\Assignment1.2\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet"
       ],
       "configFilePaths": [
         "C:\\Users\\aans\\AppData\\Roaming\\NuGet\\NuGet.Config",

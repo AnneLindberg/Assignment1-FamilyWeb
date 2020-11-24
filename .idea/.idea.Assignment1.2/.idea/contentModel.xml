@@ -98,12 +98,15 @@
       <e p="SolutionFolder1" t="Include" />
       <e p="WebApplication" t="IncludeRecursive">
         <e p="Adults.db" t="Include" />
+        <e p="Adults.db-shm" t="Include" />
+        <e p="Adults.db-wal" t="Include" />
         <e p="adults.json" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AdultsController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="IAdultService.cs" t="Include" />
@@ -111,6 +114,7 @@
             <e p="Adultservice.cs" t="Include" />
             <e p="SqliteAdultService.cs" t="Include" />
           </e>
+          <e p="IUserService.cs" t="Include" />
         </e>
         <e p="DataAccess" t="Include">
           <e p="AdultDBContext.cs" t="Include" />
