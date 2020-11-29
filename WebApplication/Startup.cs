@@ -1,4 +1,5 @@
 
+using AdultService;
 using FamilyWeb1.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -24,6 +25,7 @@ namespace WebApplication
             services.AddControllers();
             services.AddDbContext<AdultDBContext>();
             services.AddScoped<IAdultService, AdultService.AdultService>();
+            services.AddScoped<IAdultService, SqliteAdultService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

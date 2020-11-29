@@ -8,7 +8,8 @@ namespace WebApplication.DataAccess
 {
     public class AdultDBContext : DbContext
     {
-        public DbSet<Adult> Adults { get; set; }
+        public DbSet<Adult> Adults { get; set;}
+        public DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

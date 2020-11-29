@@ -4,6 +4,8 @@
     <projectFile>WebFamily/WebFamily.csproj</projectFile>
     <projectFile>FamilyWeb1/FamilyWeb1.csproj</projectFile>
     <projectFile>WebApplication/WebApplication.csproj</projectFile>
+    <projectFile>DB/DB.csproj</projectFile>
+    <projectFile>DAO/DAO.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -24,46 +26,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904b0601-18e8-4ebb-b98c-75272195cf5e" name="Default Changelist" comment="started db">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Adults.db-shm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Adults.db-wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Data/IUserService.cs" afterDir="false" />
+    <list default="true" id="904b0601-18e8-4ebb-b98c-75272195cf5e" name="Default Changelist" comment="Db seems to be working. Can add Adult">
+      <change afterPath="$PROJECT_DIR$/FamilyWeb1/Data/Impl/CloudUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Data/Impl/UserRepo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/20201128213136_usermigration.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Migrations/20201128213136_usermigration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1.2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1.2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Assignment1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Assignment1.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWeb1/Pages/AddAdult.razor" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/Pages/AddAdult.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1.2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1.2.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/Authentication/CustomAuthentication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/Authentication/CustomAuthentication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/Data/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/Data/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/Data/Impl/InMemoryUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/Data/Impl/InMemoryUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyWeb1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/bin/Debug/netcoreapp3.1/FamilyWeb1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/FamilyWeb1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/Razor/Pages/AddAdult.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/Razor/Pages/AddAdult.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/FamilyWeb1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/FamilyWeb1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/FamilyWeb1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/FamilyWeb1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddAdult.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/AddAdult.razor.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyWeb1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyWeb1/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/Adults.db" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Adults.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Adults.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Adults.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/AdultsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/AdultsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Data/IAdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Data/IAdultService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Data/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Data/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Data/Impl/SqliteAdultService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Data/Impl/SqliteAdultService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/adults.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Migrations/AdultDBContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Migrations/AdultDBContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Persistence/FileContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Persistence/FileContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/adults.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/adults.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,47 +87,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebFamily/Pages/Login.razor" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Pages/Login.razor" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Pages/_Host.cshtml" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/App.razor" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Shared/MainLayout.razor" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Shared/NavMenu.razor" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Pages/Index.razor" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/adults.json" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/AdultService.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Models/Person.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Persistence/AdultDBContext.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Data/Impl/AdultService.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Program.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Persistence/IFileContext.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Persistence/FileHelper.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Properties/launchSettings.json" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Startup.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/WebService.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Persistence/IFileContext.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Persistence/FileContext.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/AdultsController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Data/IAdultService.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/Impl/CloudAdultService.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Data/Impl/Adultservice.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Pages/View.razor" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Data/IAdultService.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/CloudAdultService.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/InMemoryUserService.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Models/User.cs" />
-        <option value="$PROJECT_DIR$/FamilyWeb1/Authentication/CustomAuthentication.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/Adult.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Models/Person.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Persistence/AdultContext.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Data/Impl/SqliteAdultService.cs" />
         <option value="$PROJECT_DIR$/WebApplication/adults.json" />
+        <option value="$PROJECT_DIR$/DB/Program.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/IAdultDBContext.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/IAdultDBContext.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Persistence/FileAdaptor.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/ISqliteAdultService.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/FileStorage.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Persistance/IFileStorage.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Persistance/FileStorage.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/_Imports.razor" />
+        <option value="$PROJECT_DIR$/DAO/Program.cs" />
+        <option value="$PROJECT_DIR$/DAO/Persistance/FileStorage.cs" />
+        <option value="$PROJECT_DIR$/DAO/Persistance/IFileStorage.cs" />
+        <option value="$PROJECT_DIR$/DAO/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Models/Adult.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/AdultDBContext.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/IAdultService.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/IDAOAdultService.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/DAOAdultService.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/IDAOAdultService.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/Impl/DAOAdultService.cs" />
         <option value="$PROJECT_DIR$/FamilyWeb1/Pages/AddAdult.razor" />
-        <option value="$PROJECT_DIR$/WebApplication/Data/IUserService.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/Impl/AdultService.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Startup.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/CloudAdultService.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Models/User.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/IUserRepo.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Program.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Pages/View.razor" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/Impl/AdultRepo.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/IAdultRepo.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/User.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Program.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/DataAccess/AdultDBContext.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/IAdultService.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/AdultsController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Persistence/FileContext.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/IUserService.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/Impl/UserRepo.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Data/Impl/SqliteAdultService.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/IUserService.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/InMemoryUserService.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Data/Impl/CloudUserService.cs" />
+        <option value="$PROJECT_DIR$/FamilyWeb1/Authentication/CustomAuthentication.cs" />
       </list>
     </option>
   </component>
@@ -139,7 +154,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -152,6 +166,42 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.FamilyWeb1">
+    <configuration name="DAO" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DAO/DAO.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="DB" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DB/DB.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="FamilyWeb1" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/FamilyWeb1/FamilyWeb1.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -280,7 +330,13 @@
       <workItem from="1605696380376" duration="1620000" />
       <workItem from="1605698066661" duration="3594000" />
       <workItem from="1605729246317" duration="1130000" />
-      <workItem from="1606149584240" duration="7945000" />
+      <workItem from="1606149584240" duration="13275000" />
+      <workItem from="1606296316526" duration="4465000" />
+      <workItem from="1606407352156" duration="18754000" />
+      <workItem from="1606594541160" duration="3675000" />
+      <workItem from="1606598418159" duration="180000" />
+      <workItem from="1606598684734" duration="1731000" />
+      <workItem from="1606640414924" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="Rest-API">
       <created>1604302200988</created>
@@ -317,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604945415391</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Db seems to be working. Can add Adult">
+      <created>1606236022300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606236022300</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,17 +407,22 @@
     <MESSAGE value="fixed the addAdultAsync&#10;Still needs to update when entering the page" />
     <MESSAGE value="it works" />
     <MESSAGE value="started db" />
-    <option name="LAST_COMMIT_MESSAGE" value="started db" />
+    <MESSAGE value="Db seems to be working. Can add Adult" />
+    <option name="LAST_COMMIT_MESSAGE" value="Db seems to be working. Can add Adult" />
   </component>
   <component name="WindowStateProjectService">
     <state x="49" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604915821414">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="49" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1604915821414" />
-    <state x="880" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603783009220">
+    <state x="880" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606593896077">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="880" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1603783009219" />
+    <state x="880" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1606593896077" />
+    <state x="546" y="274" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1606485858396">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="546" y="274" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1600.860@0.0.1600.860" timestamp="1606485858396" />
     <state x="826" y="417" width="597" height="205" key="Github.ShareDialog" timestamp="1603203152105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -363,49 +431,57 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603203185443" />
-    <state width="1557" height="181" key="GridCell.Tab.0.bottom" timestamp="1606235125692">
+    <state width="1557" height="159" key="GridCell.Tab.0.bottom" timestamp="1606640491400">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="756" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1024.728@0.0.1600.860" timestamp="1604405080330" />
-    <state width="1557" height="181" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606235125692" />
+    <state width="1557" height="159" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606640491400" />
     <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605087839248" />
-    <state width="1557" height="181" key="GridCell.Tab.0.center" timestamp="1606235125692">
+    <state width="1557" height="159" key="GridCell.Tab.0.center" timestamp="1606640491399">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="756" height="206" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1024.728@0.0.1600.860" timestamp="1604405080330" />
-    <state width="1557" height="181" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606235125692" />
+    <state width="1557" height="159" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1606640491399" />
     <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605087839247" />
-    <state width="1557" height="181" key="GridCell.Tab.0.left" timestamp="1606235125692">
+    <state width="1557" height="159" key="GridCell.Tab.0.left" timestamp="1606640491398">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="756" height="206" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1024.728@0.0.1600.860" timestamp="1604405080329" />
-    <state width="1557" height="181" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606235125692" />
+    <state width="1557" height="159" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1606640491398" />
     <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605087839247" />
-    <state width="1557" height="181" key="GridCell.Tab.0.right" timestamp="1606235125692">
+    <state width="1557" height="159" key="GridCell.Tab.0.right" timestamp="1606640491399">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="756" height="206" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1024.728@0.0.1600.860" timestamp="1604405080330" />
-    <state width="1557" height="181" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606235125692" />
+    <state width="1557" height="159" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1606640491399" />
     <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605087839248" />
-    <state x="756" y="81" key="Rider.ProjectTemplateDialog.Size" timestamp="1606236000626">
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1606595768603">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="756" y="81" key="Rider.ProjectTemplateDialog.Size/0.0.1600.860@0.0.1600.860" timestamp="1606236000626" />
-    <state x="1241" y="157" key="RiderGenerateDialog" timestamp="1605600455641">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1606595768603" />
+    <state x="756" y="81" key="Rider.ProjectTemplateDialog.Size" timestamp="1606411877225">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="579" y="130" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1604917219529" />
+    <state x="756" y="81" key="Rider.ProjectTemplateDialog.Size/0.0.1600.860@0.0.1600.860" timestamp="1606411877225" />
+    <state x="579" y="130" key="RiderGenerateDialog" timestamp="1606599971979">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="579" y="130" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1606599971979" />
     <state x="1241" y="157" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605600455641" />
     <state x="878" y="83" width="645" height="701" key="VCS.FileHistoryDialog" timestamp="1606232737932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="878" y="83" width="645" height="701" key="VCS.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1606232737932" />
     <state x="1053" y="100" width="774" height="847" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604424349276" />
-    <state x="470" y="197" key="Vcs.Push.Dialog.v2" timestamp="1605729780652">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1606236027467">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1604695408748" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1606236027467" />
     <state x="470" y="197" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605729780652" />
+    <state x="690" y="317" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606237189863">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="690" y="317" width="316" height="245" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1600.860@0.0.1600.860" timestamp="1606237189863" />
     <state x="1048" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605616976653">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

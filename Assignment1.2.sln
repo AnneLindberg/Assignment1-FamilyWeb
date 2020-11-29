@@ -13,6 +13,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{07BBEFD4-5FD7-4BAB-88D4-ED4ADB2EDB5C} = {82CB403D-E984-4337-8BD3-907AAE8A213F}
+		{A0B244DB-963D-4734-AF09-36E9760E4FA9} = {82CB403D-E984-4337-8BD3-907AAE8A213F}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{07BBEFD4-5FD7-4BAB-88D4-ED4ADB2EDB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

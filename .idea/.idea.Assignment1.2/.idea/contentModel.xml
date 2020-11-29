@@ -21,6 +21,7 @@
           <e p="IAdultService.cs" t="Include" />
           <e p="Impl" t="Include">
             <e p="CloudAdultService.cs" t="Include" />
+            <e p="CloudUserService.cs" t="Include" />
             <e p="InMemoryUserService.cs" t="Include" />
           </e>
           <e p="IUserService.cs" t="Include" />
@@ -98,8 +99,6 @@
       <e p="SolutionFolder1" t="Include" />
       <e p="WebApplication" t="IncludeRecursive">
         <e p="Adults.db" t="Include" />
-        <e p="Adults.db-shm" t="Include" />
-        <e p="Adults.db-wal" t="Include" />
         <e p="adults.json" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -113,6 +112,7 @@
           <e p="Impl" t="Include">
             <e p="Adultservice.cs" t="Include" />
             <e p="SqliteAdultService.cs" t="Include" />
+            <e p="UserRepo.cs" t="Include" />
           </e>
           <e p="IUserService.cs" t="Include" />
         </e>
@@ -122,6 +122,8 @@
         <e p="Migrations" t="Include">
           <e p="20201109094848_InitialCreate.cs" t="Include" />
           <e p="20201109094848_InitialCreate.Designer.cs" t="Include" />
+          <e p="20201128213136_usermigration.cs" t="Include" />
+          <e p="20201128213136_usermigration.Designer.cs" t="Include" />
           <e p="AdultDBContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

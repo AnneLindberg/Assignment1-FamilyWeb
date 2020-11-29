@@ -1,6 +1,7 @@
-﻿﻿using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Assignment1.Data;
 using Models;
 
@@ -38,6 +39,11 @@ namespace LoginExample.Data.Impl
             }
 
             return first;
+        }
+
+        public Task<User> ValidateLogin(string userName, string password)
+        {
+            throw new NotImplementedException();
         }
     }
 }

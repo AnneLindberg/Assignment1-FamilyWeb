@@ -1,17 +1,21 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Text.Json;
 using Models;
 
 namespace FileData {
 public class FileContext {
     public IList<Adult> Adults { get; private set; }
+    public IList<User> Users { get; set; }
     
     private readonly string adultsFile = "adults.json";
+    private readonly string usersFile = "users.json";
 
     public FileContext() {
         Adults = File.Exists(adultsFile) ? ReadData<Adult>(adultsFile) : new List<Adult>();
+        Users = File.Exists(usersFile) ? ReadData<User>(usersFile) : new List<User>();
     }
 
     private IList<T> ReadData<T>(string s) {
@@ -25,9 +29,22 @@ public class FileContext {
         string jsonAdults = JsonSerializer.Serialize(Adults, new JsonSerializerOptions {
             WriteIndented = true
         });
-
+       
         using (StreamWriter outputFile = new StreamWriter(adultsFile, false)) {
             outputFile.Write(jsonAdults);
+        }
+    }
+
+    public void SaveChangesUseR()
+    {
+        string jsonUsers = JsonSerializer.Serialize(Users, new JsonSerializerOptions
+        {
+            WriteIndented = true
+        });
+
+        using (StreamWriter outputFile = new StreamWriter(usersFile, false))
+        {
+            outputFile.Write(jsonUsers);
         }
     }
 }

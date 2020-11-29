@@ -22,8 +22,7 @@ namespace WebApplication.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IList<Adult>>> GetAdults([FromQuery] int? id,  [FromQuery] string firstName,
-            [FromQuery] string lastName)
+        public async Task<ActionResult<IList<Adult>>> GetAdults()
         {
             try
             {
@@ -38,7 +37,7 @@ namespace WebApplication.Controllers
         }
         
         [HttpPost]
-        public async Task<ActionResult<Adult>> addAdult([FromBody] Adult adult)
+        public async Task<ActionResult<Adult>> addAdult(Adult adult)
         {
             if (!ModelState.IsValid)
             {
@@ -47,8 +46,8 @@ namespace WebApplication.Controllers
 
             try
             { 
-                Adult added = await _adultService.AddAdultAsync(adult);
-                return Created($"/{added.id}",added);
+                await _adultService.AddAdultAsync(adult);
+                return Ok();
             }
             catch (Exception e)
             {

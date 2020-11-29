@@ -23,12 +23,7 @@ namespace AdultService
         {
             return await _adultDbContext.Adults.ToListAsync();
         }
-
-        public Task<IList<Adult>> GetAllAdults(string query)
-        {
-            throw new System.NotImplementedException();
-        }
-
+        
         public async Task<Adult> AddAdultAsync(Adult adult)
         {
             EntityEntry<Adult> newlyAdded = await _adultDbContext.Adults.AddAsync(adult);
